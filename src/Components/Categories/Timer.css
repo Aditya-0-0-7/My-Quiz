@@ -1,0 +1,20 @@
+.timerContainer
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.timer
+{
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.5);
+    width:10vw;
+    height: 10vw;
+    padding: 1vw;
+    font-size: 3vw;
+}

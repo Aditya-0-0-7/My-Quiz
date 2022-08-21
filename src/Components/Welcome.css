@@ -1,0 +1,72 @@
+.login-container
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    height: 100vh;
+    flex-direction: column;
+} 
+.logos
+{
+    background-image: url('./Images/Logo.gif');
+    width:20vw;
+    height:20vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.details >form> input{
+    padding:20px;
+    width: 400px;
+    background-color:rgb(247, 219, 10);
+    border:none;
+    outline-width: 0;
+    border-radius: 999px;
+}
+.details > form >p{
+    color:white;
+}
+.nav-link-active{
+    text-decoration:none;
+    color:black;
+    padding-left:120px;
+    padding-right:120px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.nav-link-active:hover{
+    color:white;
+}
+.details>form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.details>form>button{
+    margin-top: 10px;
+    Padding:10px;
+    background-color:rgb(255, 255, 255);
+    border-color: rgb(247, 219, 10);
+    width:300px;
+    border-radius: 10px;
+    color:rgb(114, 102, 12);
+}
+.details>form>button:hover{
+    color:white;
+    background-color:rgb(247, 219, 10);
+    border-color: white;
+}
+video{
+    margin-top:60px;
+    position:absolute;
+    width:100%;
+    left:50%;
+    top:50%;
+    height:100%;
+    object-fit: cover;
+    transform:translate(-50%,-50%);
+    z-index: -1;
+}
+.output{
+    color:white;
+}
